@@ -38,9 +38,11 @@ void weather() {
 //Requesting our assistant for a Joke
 void tellJoke() {
     string jokes[] = {
-        "Why don't scientists trust atoms? Because they make up everything!",
-        "Why did the computer get cold? Because it forgot to close its Windows.",
-        "I told my computer I needed a break, and it said 'No problem, I'll go to sleep!'"
+        "Why don't scientists trust atoms? Because they make up everything!😂😂",
+        "Why did the computer get cold? Because it forgot to close its Windows😂😂.",
+        "I told my computer I needed a break, and it said 'No problem, I'll go to sleep!😂😂'"
+        "Why programmers prefer dark mode? Because the light attarcts the bugs!😂😂"
+        "Why did the develope go broke ? Because he used all his cache!😂😂"
     };
     srand(time(0));
     int index = rand() % 3;

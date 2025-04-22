@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/lasya/AppData/Local/Temp/4fa97a62-aaf4-4cae-b4af-2d852475bbbf_kali-linux-2024.4-virtualbox-amd64.7z.bbf/VirtualAssistantProject1",
+      "program": "c:/Users/lasya/AppData/Local/Temp/4fa97a62-aaf4-4cae-b4af-2d852475bbbf_kali-linux-2024.4-virtualbox-amd64.7z.bbf/VirtualAssistantProject1/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
