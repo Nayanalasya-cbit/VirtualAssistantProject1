@@ -48,6 +48,30 @@ void tellJoke() {
     int index = rand() % 3;
     cout << jokes[index] << endl;
 }
+void calculator() {
+    double a, b;
+    char op;
+    cout << "Enter first number: ";
+    cin >> a;
+    cout << "Enter operator (+, -, *, /): ";
+    cin >> op;
+    cout << "Enter second number: ";
+    cin >> b;
+
+    switch(op) {
+        case '+': cout << "Result: " << a + b << endl; break;
+        case '-': cout << "Result: " << a - b << endl; break;
+        case '*': cout << "Result: " << a * b << endl; break;
+        case '/': 
+            if(b != 0)
+                cout << "Result: " << a / b << endl; 
+            else
+                cout << "Cannot divide by zero!" << endl;
+            break;
+        default: cout << "Invalid operator!" << endl;
+    }
+}
+
 int main() {
     string name;
     cout << "Enter your name: ";
@@ -69,7 +93,9 @@ while (true) {
         weather();
     } else if (command == "joke") {
         tellJoke();
-    } 
+    } else if(command == "calculator"){
+        calculator();
+    }
      else if (command == "help") {
         cout << "Available commands:\n";
         cout << "- time\n- date\n- weather\n- joke\n- calculator\n- save reminder\n- read reminder\n- exit\n";
